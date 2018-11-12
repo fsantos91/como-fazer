@@ -11,8 +11,8 @@
       <label for="conteudo">Conteúdo</label>
       <textarea class="form-control" id="conteudo" name="conteudo" placeholder="Insira o conteúdo da publicação"><%= publicacao.conteudo %></textarea>
     </div>
-  <button type="submit" class="btn btn-primary">Confirmar</button>
-  <a href="/publicacoes/categoria/<%= categoria %>" class="btn btn-danger">Cancelar</a>
+  <button type="submit" class="btn btn-primary"><i class="fas fa-check"></i> Confirmar</button>
+  <a href="/publicacoes/categoria/<%= categoria %>" class="btn btn-danger"><i class="fas fa-times"></i> Cancelar</a>
 </form>
 
 <%- include('../footer') %>
