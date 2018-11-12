@@ -2,7 +2,7 @@
 
 <h3 class="mt-4">Nova Publicação</h3>
 
-<form class="mt-4" action="/publicacoes/nova" method="post">
+<form id="theForm" class="mt-4" action="/publicacoes/nova" method="post">
   <div class="form-group">
     <label for="titulo">Titulo</label>
     <input class="form-control" type="text" id="titulo" name="titulo" placeholder="Insira o titulo">
@@ -17,7 +17,7 @@
     </div>
   <div class="form-group">
       <label for="conteudo">Conteúdo</label>
-      <textarea class="form-control" type="text" id="conteudo" name="conteudo" placeholder="Insira o conteúdo da publicação"></textarea>
+      <textarea class="form-control" id="conteudo" name="conteudo" placeholder="Insira o conteúdo da publicação"></textarea>
     </div>
   <button type="submit" class="btn btn-primary"><i class="fas fa-check"></i> Confirmar</button>
   <a href="/categorias" class="btn btn-danger"><i class="fas fa-times"></i> Cancelar</a>
